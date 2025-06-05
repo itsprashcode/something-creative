@@ -23,13 +23,13 @@
       color: #8b0000;
       font-family: 'Comic Sans MS', cursive, sans-serif;
       display: flex;
+      flex-direction: column; /* ensures top-to-bottom layout */
       align-items: center;
       justify-content: center;
-      flex-direction: column;
       height: 100vh;
       text-align: center;
     }
-    .content {
+    .content-wrapper {
       max-width: 500px;
       padding: 20px;
     }
@@ -55,7 +55,7 @@
 </head>
 
 <body>
-  <div class="content">
+  <div class="content-wrapper">
     <div class="heart">❤️</div>
     <h1>Hey Love 💌</h1>
     <p>This website is taking a tiny beauty nap 😴 for maintenance.</p>
